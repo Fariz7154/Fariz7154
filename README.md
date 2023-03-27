@@ -35,7 +35,7 @@
 <img align="left" alt="Python" width="26px" src="https://icons-for-free.com/iconfiles/png/512/super+tiny+icons+python-1324450764865983278.png" style="padding-right:10px;" />
 <img align="left" alt="JavaScript" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" style="padding-right:10px;" />
 <img align="left" alt="Tableau" width="26px" src="https://images.ctfassets.net/76f8cs5bg9si/38ggNE1ggnjPLDGP3fV6Sb/1dd26f4f7dcd5767f0362cee8369ac92/Feature-Photo-Tableau.png?w=822&h=580&q=100&fm=webp" style="padding-right:10px;" />
-<img align="left" alt="Elk Stack" width="26px" src="https://burnhamforensics.files.wordpress.com/2019/03/elk-2.png?w=1370" style="padding-right:10px;" />
+<img align="left" alt="Elk Stack" width="26px" src="https://flowygo.com/wp-content/uploads/2021/12/ELK_stack.png" style="padding-right:10px;" />
 <img align="left" alt="GraphQL" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg" style="padding-right:10px;" />
 <img align="left" alt="Node.js" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" style="padding-right:10px;" />
 <img align="left" alt="Deno" width="26px" src="./img/deno-light.svg" style="padding-right:10px;" />
