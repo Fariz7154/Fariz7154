@@ -1,4 +1,4 @@
-# Hi there, I'm Fariz  👋 
+# Hi there, I'm Fariz  👋 https://fariz7154.github.io/
 
 <img align="centre" height="150" src="https://miro.medium.com/max/1400/1*fvS3aQ96_ZsgzGrZHKXJQA.gif"  />
 
