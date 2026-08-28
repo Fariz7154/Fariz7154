@@ -16,8 +16,8 @@ farizmohd024@gmail.com
 
 ### Projects
 
-Three repositories built around the problems that actually break data platforms
-in production — not the happy path. Each runs from a clone in under a minute,
+Four repositories built around the problems that actually break data work in
+practice — not the happy path. Each runs from a clone in under a minute,
 and each carries the test that proves the hard part works.
 
 | Project | What it does | The hard part |
@@ -25,9 +25,10 @@ and each carries the test that proves the hard part works.
 | **[telecom-streaming-pipeline](https://github.com/Fariz7154/telecom-streaming-pipeline)** | Kafka → Spark Structured Streaming through a bronze/silver/gold medallion | Schema drift is *graded*, not just detected — a new column logs, a retyped column halts the run |
 | **[banking-data-reconciliation](https://github.com/Fariz7154/banking-data-reconciliation)** | Declarative GL vs sub-ledger reconciliation, the control declared in YAML | Tolerances compare in decimal — one fils in binary floating point turns 325 rounding differences into 236 phantom breaks |
 | **[incremental-elt-warehouse](https://github.com/Fariz7154/incremental-elt-warehouse)** | Star schema loaded incrementally: watermarks, SCD Type 2, idempotent facts | New dimension members open at the beginning of time — open them at load time and the whole fact table silently lands on Unknown |
+| **[retail-metrics-layer](https://github.com/Fariz7154/retail-metrics-layer)** · [live dashboard](https://fariz7154.github.io/retail-metrics-layer/) | A tested metric layer over 1M real retail transactions, and the dashboard generated from it | The final month is partial — reported naively it shows revenue down 68%, a collapse that never happened |
 
-Every record accounted for, every rejection explainable, every load repeatable.
-That is the through-line.
+Every record accounted for, every rejection explainable, every load repeatable,
+every number traceable to the decision behind it. That is the through-line.
 
 ---
 
