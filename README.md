@@ -1,21 +1,20 @@
 <h3>Fariz Mohamed</h3>
 
-**Data & analytics — banking, Dubai.** I turn banking data into reporting people
-can defend.
+**Data analyst · BI · data engineering.** I turn data into reporting people can
+defend.
 
-Senior Analyst at **Mashreq Bank**, inside the data governance function: Power BI
-for senior stakeholders, SQL and PL/SQL across Oracle banking data, profiling and
-reconciliation on regulatory and financial reporting datasets, and automating the
-reporting that used to be done by hand — **40% less manual effort**. Before that,
-telecom analytics at **BT Group**.
+Five years across **banking, telecom and e-commerce** in the UAE, the UK and
+India. Currently a Senior Analyst at Mashreq Bank in Dubai: Power BI for senior
+stakeholders, SQL and PL/SQL over Oracle, profiling and reconciliation on
+reporting datasets, and automating the reporting that used to be done by hand —
+**40% less manual effort**. Before that, telecom-scale Spark and Kafka at BT Group.
 
 What I care about is being able to say *why a number is what it is* — which source
 it came from, which rule let it through, and what happened to the rows that did not
 make it. A dashboard nobody can defend is worse than no dashboard.
 
-The engineering is real but it sits underneath: Spark, Kafka and ADF at telecom
-volume. It means I can build the dataset I need rather than waiting in a queue for
-someone else to build it.
+I am an analyst who can build. The engineering means I can produce the dataset I
+need rather than waiting in a queue for someone else to produce it.
 
 **[fariz7154.github.io](https://fariz7154.github.io/)** · [LinkedIn](https://www.linkedin.com/in/fariz-mohamed-b028b4137/) · farizmohd024@gmail.com
 
@@ -23,9 +22,9 @@ someone else to build it.
 
 ### Open code
 
-Four repositories about the analytical problems that quietly ruin reporting — the
-metric nobody agreed the definition of, the control everyone stopped trusting, the
-chart that lies. 218 tests, CI green, each runs from a clone in under a minute.
+Four repositories about the problems that quietly ruin reporting — the metric
+nobody agreed the definition of, the control everyone stopped trusting, the chart
+that lies. 218 tests, CI green, each runs from a clone in under a minute.
 
 <table>
 <tr>
@@ -46,9 +45,9 @@ a million real transactions.
 
 **[banking-data-reconciliation](https://github.com/Fariz7154/banking-data-reconciliation)** · 79 tests
 
-A GL-versus-sub-ledger control with an exception report a controller actually
-clears from — breaks filterable by type, control totals, and the trend that shows
-a control degrading before it breaches.
+A declarative reconciliation engine — two datasets, the keys that tie them, the
+tolerance they must agree within — with an exception report someone actually clears
+from, and a trend that shows a control degrading before it breaches.
 
 > Tolerances compare in decimal, not float. One fils in binary floating point turns
 > 325 genuine rounding differences into 236 phantom breaks — which is how a control
@@ -61,7 +60,7 @@ a control degrading before it breaches.
 
 **[incremental-elt-warehouse](https://github.com/Fariz7154/incremental-elt-warehouse)** · 39 tests
 
-A star schema with SCD Type 2 history, so a customer reclassified today does not
+A star schema with SCD Type 2 history, so a record reclassified today does not
 silently restate last quarter's report. Plus validation that the history is
 well-formed after every load.
 
@@ -90,12 +89,12 @@ rules it broke.
 
 | | |
 |---|---|
-| **Analysis & BI** | Power BI · DAX · SQL · PL/SQL · Power Query · Excel · Matplotlib |
+| **Analysis & BI** | Power BI · DAX · SQL · PL/SQL · Power Query · Excel · Matplotlib · Seaborn |
 | **Reporting automation** | Python · Pandas · NumPy · SQLAlchemy · VBA |
 | **Data quality** | Reconciliation · profiling & EDA · quality rules · exception reporting · lineage |
-| **Banking platform** | Oracle · OFSAA · SQL Server · PostgreSQL |
-| **Modelling** | Star & snowflake schema · SCD Type 2 · metric & KPI definition · Synapse |
-| **Engineering depth** | Spark · Kafka · Azure Data Factory · Databricks · Hadoop · Airflow |
+| **Databases** | Oracle · PostgreSQL · SQL Server · MySQL · MongoDB · Snowflake |
+| **Modelling** | Star & snowflake schema · SCD Type 2 · metric & KPI definition |
+| **Engineering** | Spark · PySpark · Kafka · Azure Data Factory · Databricks · Hadoop · Airflow · Docker |
 
 ---
 
@@ -103,4 +102,4 @@ rules it broke.
 **BE Information Technology**, VIT, India ·
 Google Data Analytics Professional Certificate
 
-<sub>Open to data & analytics roles in the UAE. Dubai · 30 days notice.</sub>
+<sub>Open to data analyst, data engineer and BI roles. Dubai, UAE.</sub>
