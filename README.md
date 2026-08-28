@@ -1,20 +1,26 @@
 <h3>Fariz Mohamed</h3>
 
-**Data analyst · BI · data engineering.** I turn data into reporting people can
-defend.
+**Data engineer · analyst · BI.** I build the data and analyse it.
 
-Five years across **banking, telecom and e-commerce** in the UAE, the UK and
-India. Currently a Senior Analyst at Mashreq Bank in Dubai: Power BI for senior
-stakeholders, SQL and PL/SQL over Oracle, profiling and reconciliation on
-reporting datasets, and automating the reporting that used to be done by hand —
-**40% less manual effort**. Before that, telecom-scale Spark and Kafka at BT Group.
+Five years across **banking, telecom and e-commerce** in the UAE, the UK and India —
+roughly three of them on banking and financial data.
 
-What I care about is being able to say *why a number is what it is* — which source
-it came from, which rule let it through, and what happened to the rows that did not
-make it. A dashboard nobody can defend is worse than no dashboard.
+**Engineering:** ELT pipelines in Azure Data Factory and PL/SQL, Spark and Kafka at
+telecom volume, Star and Snowflake dimensional models built so a reclassification
+today does not restate last quarter's report.
 
-I am an analyst who can build. The engineering means I can produce the dataset I
-need rather than waiting in a queue for someone else to produce it.
+**Analytics:** Power BI for senior stakeholders, SQL and Python analysis, profiling
+and reconciliation, and automating the reporting that used to be done by hand —
+**40% less manual effort**.
+
+Currently Senior Analyst at **Mashreq Bank**, Dubai, on regulatory, management and
+financial reporting. Before that **BT Group** (telecom, Spark and Kafka on Cloudera
+and Azure) and **E-Mech Solutions** (banking and finance ELT, dimensional modelling).
+
+What ties it together is being able to say *why a number is what it is* — which
+source it came from, which rule let it through, and what happened to the rows that
+did not make it. A dashboard nobody can defend is worse than no dashboard, and
+building the pipeline myself is usually how I can answer that.
 
 **[fariz7154.github.io](https://fariz7154.github.io/)** · [LinkedIn](https://www.linkedin.com/in/fariz-mohamed-b028b4137/) · farizmohd024@gmail.com
 
