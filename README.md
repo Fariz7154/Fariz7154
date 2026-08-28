@@ -1,7 +1,6 @@
 ## Fariz Mohamed
 
-**Data Engineer & Analyst — Dubai, UAE.** Five years across banking, telecom and
-e-commerce in the UAE, the UK and India. Currently inside Mashreq Bank's data
+**Data Engineer & Analyst — Dubai, UAE.** Five years across banking, telecom in the UAE, the UK and India. Currently inside Mashreq Bank's data
 governance function; previously engineering telecom-scale Spark pipelines at BT Group.
 
 My work sits where the platform meets the audit trail — pipelines that hold up
