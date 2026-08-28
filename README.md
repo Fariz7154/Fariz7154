@@ -1,49 +1,54 @@
-# Hi there, I'm Fariz  👋 https://fariz7154.github.io/
+## Fariz Mohamed
 
-<img align="centre" height="150" src="https://miro.medium.com/max/1400/1*fvS3aQ96_ZsgzGrZHKXJQA.gif"  />
+**Data Engineer & Analyst — Dubai, UAE.** Five years across banking, telecom and
+e-commerce in the UAE, the UK and India. Currently inside Mashreq Bank's data
+governance function; previously engineering telecom-scale Spark pipelines at BT Group.
 
-<br clear="both">
+My work sits where the platform meets the audit trail — pipelines that hold up
+under volume, and the profiling, reconciliation and lineage controls that let a
+regulator, a finance team or a data scientist trust what comes out the other end.
 
-<div align="left">
-  
+[**Portfolio →**](https://fariz7154.github.io/) &nbsp;·&nbsp;
+[LinkedIn](https://www.linkedin.com/in/fariz-mohamed-b028b4137/) &nbsp;·&nbsp;
+farizmohd024@gmail.com
 
-  <a href="https://www.linkedin.com/in/fariz-mohamed-b028b4137/" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="linkedin logo"  />
-  </a>
-  
-    
-  </a>
-</div>
+---
 
-## I'm a Data enthusiast!!
+### Projects
 
-- 🌱 I’m currently learning everything 🤣
-- 👯 I’m looking to collaborate with other developers
-- 🥅 2023 Goals: Learn more about AI
-- ⚡ Fun fact: I love to draw and play guitar / drums
+Three repositories built around the problems that actually break data platforms
+in production — not the happy path. Each runs from a clone in under a minute,
+and each carries the test that proves the hard part works.
 
-### Connect with me:
+| Project | What it does | The hard part |
+|---|---|---|
+| **[telecom-streaming-pipeline](https://github.com/Fariz7154/telecom-streaming-pipeline)** | Kafka → Spark Structured Streaming through a bronze/silver/gold medallion | Schema drift is *graded*, not just detected — a new column logs, a retyped column halts the run |
+| **[banking-data-reconciliation](https://github.com/Fariz7154/banking-data-reconciliation)** | Declarative GL vs sub-ledger reconciliation, the control declared in YAML | Tolerances compare in decimal — one fils in binary floating point turns 325 rounding differences into 236 phantom breaks |
+| **[incremental-elt-warehouse](https://github.com/Fariz7154/incremental-elt-warehouse)** | Star schema loaded incrementally: watermarks, SCD Type 2, idempotent facts | New dimension members open at the beginning of time — open them at load time and the whole fact table silently lands on Unknown |
 
-&nbsp;&nbsp;
-[![website](./img/linkedin-light.svg)](https://www.linkedin.com/in/fariz-mohamed-b028b413r#gh-light-mode-only)
-[![website](./img/linkedin-dark.svg)](https://www.linkedin.com/in/fariz-mohamed-b028b413r#gh-dark-mode-only)
+Every record accounted for, every rejection explainable, every load repeatable.
+That is the through-line.
 
-### Languages and Tools:
+---
 
-<img align="left" alt="HTML5" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" style="padding-right:10px;" />
-<img align="left" alt="CSS3" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" style="padding-right:10px;" />
-<img align="left" alt="Python" width="26px" src="https://icons-for-free.com/iconfiles/png/512/super+tiny+icons+python-1324450764865983278.png" style="padding-right:10px;" />
-<img align="left" alt="JavaScript" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" style="padding-right:10px;" />
-<img align="left" alt="Tableau" width="26px" src="https://images.ctfassets.net/76f8cs5bg9si/38ggNE1ggnjPLDGP3fV6Sb/1dd26f4f7dcd5767f0362cee8369ac92/Feature-Photo-Tableau.png?w=822&h=580&q=100&fm=webp" style="padding-right:10px;" />
-<img align="left" alt="Elk Stack" width="26px" src="https://flowygo.com/wp-content/uploads/2021/12/ELK_stack.png" style="padding-right:10px;" />
-<img align="left" alt="GraphQL" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg" style="padding-right:10px;" />
-<img align="left" alt="Node.js" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" style="padding-right:10px;" />
-<img align="left" alt="Deno" width="26px" src="./img/deno-light.svg" style="padding-right:10px;" />
-<img align="left" alt="MongoDB" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" style="padding-right:10px;" />
-<img align="left" alt="MySQL" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" style="padding-right:10px;" />
-<img align="left" alt="Git" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" style="padding-right:10px;" />
-<br />
-<br />
+### What I work with
 
-[instagram]: https://github.com/Fariz7154
-[linkedin]: https://www.linkedin.com/in/fariz-mohamed-b028b413
+**Processing** &nbsp; Spark (Core, SQL, Streaming) · PySpark · Scala · Hadoop · Hive · Databricks
+**Ingestion** &nbsp; Kafka · Azure Data Factory · NiFi
+**Storage & modelling** &nbsp; Oracle · Azure Data Lake · Synapse · Snowflake · PostgreSQL · Star/Snowflake schema · SCD Type 2
+**Analysis & BI** &nbsp; SQL · PL/SQL · Python · Pandas · Power BI · DAX
+**Platform** &nbsp; Airflow · Azure DevOps · Docker · Git · Linux
+**Governance** &nbsp; Data quality frameworks · reconciliation · lineage & metadata · MDM
+
+---
+
+### Background
+
+**MSc Artificial Intelligence & Big Data** — Anglia Ruskin University, UK
+**BE Information Technology** — Vellore Institute of Technology, India
+
+Google Data Analytics Professional Certificate · Power BI · Advanced SQL · Advanced Python
+
+---
+
+<sub>Open to data engineering and analytics roles in the UAE.</sub>
