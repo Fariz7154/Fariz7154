@@ -1,54 +1,97 @@
-## Fariz Mohamed
+<h3>Fariz Mohamed</h3>
 
-**Data Engineer & Analyst — Dubai, UAE.** Five years across banking, telecom in the UAE, the UK and India. Currently inside Mashreq Bank's data
-governance function; previously engineering telecom-scale Spark pipelines at BT Group.
+**Banking data engineer, Dubai.** I build the pipelines a bank reports from, and
+the controls that prove the numbers.
 
-My work sits where the platform meets the audit trail — pipelines that hold up
-under volume, and the profiling, reconciliation and lineage controls that let a
-regulator, a finance team or a data scientist trust what comes out the other end.
+Currently a Senior Analyst at **Mashreq Bank**, inside the data governance
+function — PL/SQL and Python over Oracle, across the regulatory, management and
+financial reporting datasets that have to survive an audit. Before that,
+telecom-scale Spark and Kafka at **BT Group**.
 
-[**Portfolio →**](https://fariz7154.github.io/) &nbsp;·&nbsp;
-[LinkedIn](https://www.linkedin.com/in/fariz-mohamed-b028b4137/) &nbsp;·&nbsp;
-farizmohd024@gmail.com
+Inside a bank the pipeline is the easy half. The hard half is being able to say
+*why a number is what it is* — which source it came from, which rule let it
+through, and what happened to the rows that did not make it.
 
----
-
-### Projects
-
-Four repositories built around the problems that actually break data work in
-practice — not the happy path. Each runs from a clone in under a minute,
-and each carries the test that proves the hard part works.
-
-| Project | What it does | The hard part |
-|---|---|---|
-| **[telecom-streaming-pipeline](https://github.com/Fariz7154/telecom-streaming-pipeline)** | Kafka → Spark Structured Streaming through a bronze/silver/gold medallion | Schema drift is *graded*, not just detected — a new column logs, a retyped column halts the run |
-| **[banking-data-reconciliation](https://github.com/Fariz7154/banking-data-reconciliation)** | Declarative GL vs sub-ledger reconciliation, the control declared in YAML | Tolerances compare in decimal — one fils in binary floating point turns 325 rounding differences into 236 phantom breaks |
-| **[incremental-elt-warehouse](https://github.com/Fariz7154/incremental-elt-warehouse)** | Star schema loaded incrementally: watermarks, SCD Type 2, idempotent facts | New dimension members open at the beginning of time — open them at load time and the whole fact table silently lands on Unknown |
-| **[retail-metrics-layer](https://github.com/Fariz7154/retail-metrics-layer)** · [live dashboard](https://fariz7154.github.io/retail-metrics-layer/) | A tested metric layer over 1M real retail transactions, and the dashboard generated from it | The final month is partial — reported naively it shows revenue down 68%, a collapse that never happened |
-
-Every record accounted for, every rejection explainable, every load repeatable,
-every number traceable to the decision behind it. That is the through-line.
+**[fariz7154.github.io](https://fariz7154.github.io/)** · [LinkedIn](https://www.linkedin.com/in/fariz-mohamed-b028b4137/) · farizmohd024@gmail.com
 
 ---
 
-### What I work with
+### Open code
 
-**Processing** &nbsp; Spark (Core, SQL, Streaming) · PySpark · Scala · Hadoop · Hive · Databricks
-**Ingestion** &nbsp; Kafka · Azure Data Factory · NiFi
-**Storage & modelling** &nbsp; Oracle · Azure Data Lake · Synapse · Snowflake · PostgreSQL · Star/Snowflake schema · SCD Type 2
-**Analysis & BI** &nbsp; SQL · PL/SQL · Python · Pandas · Power BI · DAX
-**Platform** &nbsp; Airflow · Azure DevOps · Docker · Git · Linux
-**Governance** &nbsp; Data quality frameworks · reconciliation · lineage & metadata · MDM
+Four repositories, 218 tests, CI green. Each runs from a clone in under a minute.
+They are all built around the same idea: **the interesting engineering is in the
+4% of records that go wrong**, not the 96% that behave.
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**[banking-data-reconciliation](https://github.com/Fariz7154/banking-data-reconciliation)** · 79 tests
+
+A declarative GL-versus-sub-ledger control. The reconciliation is YAML that
+finance can sign off; the engine classifies every key and exits non-zero so the
+scheduler stops a report that did not tie out.
+
+> Tolerances compare in decimal, not float. One fils in binary floating point
+> turns 325 genuine rounding differences into 236 phantom breaks — which is how
+> a control gets quietly ignored by whoever clears it each morning.
+
+</td>
+<td width="50%" valign="top">
+
+**[retail-metrics-layer](https://github.com/Fariz7154/retail-metrics-layer)** · 77 tests · **[live dashboard](https://fariz7154.github.io/retail-metrics-layer/)**
+
+Every number on a report is a decision before it is a number. Each metric is
+defined once, in YAML, with its judgement calls attached — and they are printed
+beside the figure, not buried in a query.
+
+> The source stops mid-month, so the final period is partial. Reported the usual
+> way it shows revenue down 68% — a collapse that never happened.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**[incremental-elt-warehouse](https://github.com/Fariz7154/incremental-elt-warehouse)** · 39 tests
+
+A star schema loaded incrementally — watermarks with a lookback window, SCD Type
+2 history, idempotent facts. The interesting part is the second and third load.
+
+> New dimension members open at the beginning of time. Open them at load time and
+> the entire fact table lands on Unknown while every integrity check still passes.
+
+</td>
+<td width="50%" valign="top">
+
+**[telecom-streaming-pipeline](https://github.com/Fariz7154/telecom-streaming-pipeline)** · 23 tests
+
+Kafka into Spark Structured Streaming through a medallion. Nothing is dropped
+silently; every rejection carries the list of rules it broke.
+
+> Schema drift is graded rather than merely detected — a new column logs, a
+> retyped column halts the run.
+
+</td>
+</tr>
+</table>
 
 ---
 
-### Background
+### Stack
 
-**MSc Artificial Intelligence & Big Data** — Anglia Ruskin University, UK
-**BE Information Technology** — Vellore Institute of Technology, India
-
-Google Data Analytics Professional Certificate · Power BI · Advanced SQL · Advanced Python
+| | |
+|---|---|
+| **Banking platform** | Oracle · PL/SQL · OFSAA · SQL Server · PostgreSQL |
+| **Governance** | Reconciliation · data quality frameworks · lineage & metadata · MDM |
+| **Processing** | Python · Spark · PySpark · Scala · Pandas · Hadoop · Databricks |
+| **Pipelines** | Azure Data Factory · Kafka · Airflow · Azure DevOps · Git · Docker |
+| **Modelling** | Star & snowflake schema · SCD Type 2 · Azure Data Lake · Synapse |
+| **Reporting** | Power BI · DAX · Power Query · Excel |
 
 ---
 
-<sub>Open to data engineering and analytics roles in the UAE.</sub>
+**MSc Artificial Intelligence & Big Data**, Anglia Ruskin University, UK ·
+**BE Information Technology**, VIT, India
+
+<sub>Open to banking data roles in the UAE. Dubai · 30 days notice.</sub>
